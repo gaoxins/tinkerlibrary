@@ -1,0 +1,238 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+
+  <dimen name="divider_px">1px</dimen>
+  <dimen name="divider_dp">1dp</dimen>
+  <dimen name="divider_2dp">2dp</dimen>
+  <dimen name="divider_5dp">5dp</dimen>
+  <dimen name="divider_10dp">10dp</dimen>
+  <!-- padding -->
+  <dimen name="app_padding_1dp">1dp</dimen>
+  <dimen name="app_padding_3dp">3dp</dimen>
+  <dimen name="app_padding_5dp">5dp</dimen>
+  <dimen name="app_padding_7dp">7dp</dimen>
+  <dimen name="app_padding_8dp">8dp</dimen>
+  <dimen name="app_padding_9dp">9dp</dimen>
+  <dimen name="app_padding_10dp">10dp</dimen>
+  <dimen name="app_padding_11dp">11dp</dimen>
+  <dimen name="app_padding_13dp">13dp</dimen>
+  <dimen name="app_padding_17dp">17dp</dimen>
+
+  <!-- margin -->
+  <dimen name="app_margin">16dp</dimen>
+  <dimen name="app_margin_negative_1dp">-1dp</dimen>
+  <dimen name="app_margin_1dp">1dp</dimen>
+  <dimen name="app_margin_2dp">2dp</dimen>
+  <dimen name="app_margin_3dp">3dp</dimen>
+  <dimen name="app_margin_4dp">4dp</dimen>
+  <dimen name="app_margin_5dp">5dp</dimen>
+  <dimen name="app_margin_6dp">6dp</dimen>
+  <dimen name="app_margin_7dp">7dp</dimen>
+  <dimen name="app_margin_8dp">8dp</dimen>
+  <dimen name="app_margin_9dp">9dp</dimen>
+  <dimen name="app_margin_10dp">10dp</dimen>
+  <dimen name="app_margin_11dp">11dp</dimen>
+  <dimen name="app_margin_12dp">12dp</dimen>
+  <dimen name="app_margin_13dp">13dp</dimen>
+  <dimen name="app_margin_14dp">14dp</dimen>
+  <dimen name="app_margin_15dp">15dp</dimen>
+  <dimen name="app_margin_16dp">16dp</dimen>
+  <dimen name="app_margin_17dp">17dp</dimen>
+  <dimen name="app_margin_18dp">18dp</dimen>
+  <dimen name="app_margin_19dp">19dp</dimen>
+  <dimen name="app_margin_20dp">20dp</dimen>
+  <dimen name="app_margin_22dp">22dp</dimen>
+  <dimen name="app_margin_23dp">23dp</dimen>
+  <dimen name="app_margin_24dp">24dp</dimen>
+  <dimen name="app_margin_25dp">25dp</dimen>
+  <dimen name="app_margin_30dp">30dp</dimen>
+  <dimen name="app_margin_32dp">32dp</dimen>
+  <dimen name="app_margin_35dp">35dp</dimen>
+  <dimen name="app_margin_38dp">38dp</dimen>
+  <dimen name="app_margin_40dp">40dp</dimen>
+  <dimen name="app_margin_45dp">45dp</dimen>
+  <dimen name="app_margin_50dp">50dp</dimen>
+  <dimen name="app_margin_58dp">58dp</dimen>
+  <dimen name="app_margin_60dp">60dp</dimen>
+  <dimen name="app_margin_66dp">66dp</dimen>
+  <dimen name="app_margin_67dp">67dp</dimen>
+  <dimen name="app_margin_72dp">72dp</dimen>
+  <dimen name="app_margin_112dp">112dp</dimen>
+
+  <!-- layout_width -->
+  <dimen name="layout_width_0dp">0dp</dimen>
+  <dimen name="layout_width_1dp">1dp</dimen>
+  <dimen name="layout_width_5dp">5dp</dimen>
+  <dimen name="layout_width_10dp">10dp</dimen>
+  <dimen name="layout_width_12dp">12dp</dimen>
+  <dimen name="layout_width_14dp">14dp</dimen>
+  <dimen name="layout_width_15dp">15dp</dimen>
+  <dimen name="layout_width_16dp">16dp</dimen>
+  <dimen name="layout_width_20dp">20dp</dimen>
+  <dimen name="layout_width_30dp">30dp</dimen>
+  <dimen name="layout_width_32dp">32dp</dimen>
+  <dimen name="layout_width_33dp">33dp</dimen>
+  <dimen name="layout_width_35dp">35dp</dimen>
+  <dimen name="layout_width_34dp">34dp</dimen>
+  <dimen name="layout_width_39dp">39dp</dimen>
+  <dimen name="layout_width_40dp">40dp</dimen>
+  <dimen name="layout_width_43dp">43dp</dimen>
+  <dimen name="layout_width_44dp">44dp</dimen>
+  <dimen name="layout_width_45dp">45dp</dimen>
+  <dimen name="layout_width_50dp">50dp</dimen>
+  <dimen name="layout_width_52dp">52dp</dimen>
+  <dimen name="layout_width_54dp">54dp</dimen>
+  <dimen name="layout_width_60dp">60dp</dimen>
+  <dimen name="layout_width_64dp">64dp</dimen>
+  <dimen name="layout_width_65dp">65dp</dimen>
+  <dimen name="layout_width_70dp">70dp</dimen>
+  <dimen name="layout_width_72dp">72dp</dimen>
+  <dimen name="layout_width_75dp">75dp</dimen>
+  <dimen name="layout_width_76dp">76dp</dimen>
+  <dimen name="layout_width_80dp">80dp</dimen>
+  <dimen name="layout_width_85dp">85dp</dimen>
+  <dimen name="layout_width_90dp">90dp</dimen>
+  <dimen name="layout_width_95dp">95dp</dimen>
+  <dimen name="layout_width_100dp">100dp</dimen>
+  <dimen name="layout_width_102dp">102dp</dimen>
+  <dimen name="layout_width_108dp">108dp</dimen>
+  <dimen name="layout_width_115dp">115dp</dimen>
+  <dimen name="layout_width_116dp">116dp</dimen>
+  <dimen name="layout_width_118dp">118dp</dimen>
+  <dimen name="layout_width_120dp">120dp</dimen>
+  <dimen name="layout_width_150dp">150dp</dimen>
+  <dimen name="layout_width_155dp">155dp</dimen>
+  <dimen name="layout_width_260dp">260dp</dimen>
+  <dimen name="layout_width_290dp">290dp</dimen>
+
+
+  <!-- layout_height-->
+  <dimen name="layout_height_76dp">76dp</dimen>
+  <dimen name="layout_height_110dp">110dp</dimen>
+  <dimen name="layout_height_120dp">120dp</dimen>
+  <dimen name="layout_height_260dp">260dp</dimen>
+  <dimen name="layout_height_0dp">0dp</dimen>
+  <dimen name="layout_height_1dp">1dp</dimen>
+  <dimen name="layout_height_2dp">2dp</dimen>
+  <dimen name="layout_height_4dp">4dp</dimen>
+  <dimen name="layout_height_5dp">5dp</dimen>
+  <dimen name="layout_height_8dp">8dp</dimen>
+  <dimen name="layout_height_10dp">10dp</dimen>
+  <dimen name="layout_height_15dp">15dp</dimen>
+  <dimen name="layout_height_16dp">16dp</dimen>
+  <dimen name="layout_height_18dp">18dp</dimen>
+  <dimen name="layout_height_12dp">12dp</dimen>
+  <dimen name="layout_height_20dp">20dp</dimen>
+  <dimen name="layout_height_22dp">22dp</dimen>
+  <dimen name="layout_height_24dp">24dp</dimen>
+  <dimen name="layout_height_25dp">25dp</dimen>
+  <dimen name="layout_height_30dp">30dp</dimen>
+  <dimen name="layout_height_52dp">52dp</dimen>
+  <dimen name="layout_height_35dp">35dp</dimen>
+  <dimen name="layout_height_36dp">36dp</dimen>
+  <dimen name="layout_height_38dp">38dp</dimen>
+  <dimen name="layout_height_39dp">39dp</dimen>
+  <dimen name="layout_height_40dp">40dp</dimen>
+  <dimen name="layout_height_42dp">42dp</dimen>
+  <dimen name="layout_height_43dp">43dp</dimen>
+  <dimen name="layout_height_44dp">44dp</dimen>
+  <dimen name="layout_height_45dp">45dp</dimen>
+  <dimen name="layout_height_48dp">48dp</dimen>
+  <dimen name="layout_height_50dp">50dp</dimen>
+  <dimen name="layout_height_51dp">51dp</dimen>
+  <dimen name="layout_height_60dp">60dp</dimen>
+  <dimen name="layout_height_62dp">62dp</dimen>
+  <dimen name="layout_height_65dp">65dp</dimen>
+  <dimen name="layout_height_68dp">68dp</dimen>
+  <dimen name="layout_height_70dp">70dp</dimen>
+  <dimen name="layout_height_72dp">72dp</dimen>
+  <dimen name="layout_height_80dp">80dp</dimen>
+  <dimen name="layout_height_84dp">84dp</dimen>
+  <dimen name="layout_height_85dp">85dp</dimen>
+  <dimen name="layout_height_89dp">89dp</dimen>
+  <dimen name="layout_height_100dp">100dp</dimen>
+  <dimen name="layout_height_125dp">125dp</dimen>
+  <dimen name="layout_height_230dp">230dp</dimen>
+  <dimen name="layout_height_250dp">250dp</dimen>
+  <dimen name="layout_height_304dp">304dp</dimen>
+
+  <dimen name="login_textview_height">65dp</dimen>
+
+  <!-- text -->
+  <dimen name="text_size_4sp">4sp</dimen>
+  <dimen name="text_size_10sp">10sp</dimen>
+  <dimen name="text_size_12sp">12sp</dimen>
+  <dimen name="text_size_14sp">14sp</dimen>
+  <dimen name="text_size_16sp">16sp</dimen>
+  <dimen name="text_size_18sp">18sp</dimen>
+  <dimen name="text_size_20sp">20sp</dimen>
+  <dimen name="text_size_22sp">22sp</dimen>
+  <dimen name="text_size_24sp">24sp</dimen>
+  <dimen name="text_size_32sp">32sp</dimen>
+  <dimen name="text_size_36sp">36sp</dimen>
+
+  <!--radius-->
+  <dimen name="radius_0dp">0dp</dimen>
+  <dimen name="radius_2dp">2dp</dimen>
+
+  <!--cardElevation-->
+  <dimen name="card_elevation_0dp">0dp</dimen>
+  <!--calendar-->
+  <dimen name="layout_width_130dp">130dp</dimen>
+  <dimen name="calendar_seperator_width">1dp</dimen>
+  <dimen name="calendar_label_height">60dp</dimen>
+  <dimen name="calendar_text_size_day">16sp</dimen>
+  <dimen name="calendar_text_size_month">16sp</dimen>
+  <dimen name="calendar_text_size_day_name">10sp</dimen>
+  <dimen name="calendar_header_month_height">25dp</dimen>
+  <dimen name="calendar_selected_day_radius">18dp</dimen>
+  <dimen name="calendar_height">270dp</dimen>
+
+  <!-- elevation -->
+  <dimen name="elevation_4dp">4dp</dimen>
+
+  <!--downline下线-->
+  <dimen name="tab_indicator_height">2dp</dimen>
+  <dimen name="tab_height">44dp</dimen>
+
+
+  <!-- Header View -->
+  <dimen name="header_view_start_margin_left">16dp</dimen>
+  <dimen name="header_view_end_margin_left">40dp</dimen>
+  <dimen name="header_view_end_margin_right">14dp</dimen>
+  <dimen name="header_view_start_margin_bottom">14dp</dimen>
+  <dimen name="margin_top">16dp</dimen>
+  <dimen name="margin_top_medium">8dp</dimen>
+  <dimen name="margin_bottom">16dp</dimen>
+  <dimen name="margin_bottom_small">8dp</dimen>
+  <dimen name="margin_left">16dp</dimen>
+  <dimen name="margin_small">8dp</dimen>
+  <dimen name="margin_right">16dp</dimen>
+  <dimen name="margin_right_handle">22dp</dimen>
+  <dimen name="icon_width">40dp</dimen>
+  <dimen name="icon_height">40dp</dimen>
+  <dimen name="icon_touchable_component_mini">40dp</dimen>
+  <dimen name="icon_circular_width">24dp</dimen>
+  <dimen name="icon_circular_height">24dp</dimen>
+  <dimen name="fab_margin">16dp</dimen>
+  <dimen name="butterbar_height">3dp</dimen>
+  <dimen name="toolbar_height">64dp</dimen><!-- 56 + 8 small margin top -->
+  <dimen name="popup_button_min_height">48dp</dimen>
+  <dimen name="popup_max_height">290dp</dimen>
+  <dimen name="bottom_sheet_peek">312dp</dimen>
+
+  <dimen name="card_height">60dp</dimen>
+  <dimen name="card_extra_height">15dp</dimen>
+  <dimen name="label_height">150dp</dimen>
+  <dimen name="dialog_padding_vertical">24dp</dimen>
+  <dimen name="dialog_padding_horizontal">24dp</dimen>
+  <dimen name="text_margin">16dp</dimen>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <!-- Navigation Drawer -->
+  <dimen name="nav_header_vertical_spacing">16dp</dimen>
+  <dimen name="nav_header_height">160dp</dimen>
+  <dimen name="nav_drawer_max_width">320dp</dimen>
+
+</resources>

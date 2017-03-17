@@ -1,0 +1,58 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'android-apt'
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        renderscriptTargetApi 19
+        renderscriptSupportModeEnabled true
+        multiDexEnabled = true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    buildTypes {
+//        debug {
+//            applicationIdSuffix ".debug" // 避免与 release 版本冲突
+//        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+//    applicationVariants.all { variant ->
+//        variant.outputs.each { output ->
+//            def outputFile = output.outputFile
+//            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+//                // 输出apk名称为 _v1.0_2016-05-23_internal.apk
+//                def fileName = "My_v${defaultConfig.versionName}_${variant.buildType.name}.apk"
+//                output.outputFile = new File(outputFile.parent, fileName)
+//            }
+//        }
+//    }
+}
+
+dependencies {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    compile 'com.android.support:support-v4:25.2.0'
+}

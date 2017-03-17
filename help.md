@@ -1,0 +1,1 @@
+引用 version.gradle 需MV到根目录并在 build.gradle 中配置 apply from: 'version.gradle'
